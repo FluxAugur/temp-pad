@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">RY1CbBI5nzvRBrGG9X8EbghPesUSxQpM</property>
+    <property name="acs-oauth-key-production" type="string">KrrHvPdhQpMe6sTExOO1vUvxI0Ou1wRM</property>
+    <property name="acs-api-key-production" type="string">0JDXPZMCvueL4fA78RFLinJK2Qoj6KAT</property>
+    <property name="acs-oauth-secret-development" type="string">aUS9DauypPwDuWVUMB8YJz6MXZTEqNsU</property>
+    <property name="acs-oauth-key-development" type="string">jjn50ALTom7sRosQU7F9j0EWKQLGKp2u</property>
+    <property name="acs-api-key-development" type="string">AhSACi8AvNHwqxBzXwbTotEvVPS9UXai</property>
+    <id>com.synaptian.scadPad.padLearn</id>
+    <name>SCADpad padLearn</name>
+    <version>1.0</version>
+    <publisher>Synaptian Inc.</publisher>
+    <url>http://www.synaptian.com</url>
+    <description>not specified</description>
+    <copyright>2014 by Savannah College of Art and Design (SCAD)</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>d8c116bd-c511-4f01-b67a-fc361b776d64</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="android">ti.admob</module>
+        <module platform="iphone">ti.admob</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="tizen">false</target>
+    </deployment-targets>
+    <sdk-version>3.2.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+</ti:app>

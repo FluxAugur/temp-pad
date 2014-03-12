@@ -1,0 +1,17 @@
+
+<Alloy>
+  <Window>
+    <View id="header" class="container">
+      <View id="viewHeaderEssential" class="container">
+        <ImageView id="imageViewScadPadLogo"></ImageView>
+        <ImageView id="imageViewHome"></ImageView>
+        <ImageView id="imageViewAboutScad"></ImageView>
+      </View>
+      <ImageView id="imageViewPadLearn"></ImageView>
+    </View>
+    <View id="content" class="container">
+    </View>
+    <View id="footer" class="container">
+    </View>
+  </Window>
+</Alloy>
